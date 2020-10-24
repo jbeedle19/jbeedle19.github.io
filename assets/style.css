@@ -11,6 +11,7 @@ body {
 :root {
     --pale-blue: #4bb3fd;
     --light: white;
+    --off-white: #d6f9dd;
     --dark-blue: #1d3461;
     --green: #1a936f;
     --blue-grey: #7389ae;
@@ -33,7 +34,7 @@ header h1 {
 }
 header a {
     text-decoration: none;
-    color: var(--light);
+    color: var(--off-white);
 }
 header nav {
     margin: 7px 0;
@@ -79,7 +80,7 @@ section {
 }
 .primary-border {
     /* REPLACE THIS BORDER COLOR??*/
-    border-color: var(--light)
+    border-color: var(--off-white)
 }
 .secondary-border {
     /* REPLACE THIS BORDER COLOR??*/
@@ -95,7 +96,7 @@ section {
     background: var(--blue-grey);
 }
 .about-section h2 {
-    color: var(--light);
+    color: var(--off-white);
 }
 .headshot {
     display: flex;
@@ -121,6 +122,33 @@ section {
 /* About Me Style End */
 
 /* Work Style Start */
+.work-section {
+    background-color: #d6f9dd;
+}
+.work-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.work-grid-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 3fr);
+    grid-gap: 20px;
+    color: var(--blue-grey);
+    font-size: 1.2rem;
+}
+.work-grid-item {
+    border: 1px solid var(--blue-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.work-grid-item.run-buddy {
+    grid-column: 1 / span 2;
+}
 /* Work Style End */
 
 /* Contact Me Style Start */
@@ -128,15 +156,15 @@ section {
     background-color: var(--blue-grey);
 }
 .contact-section h2 {
-    color: var(--light);
+    color: var(--off-white);
 }
 .contact-section a {
     text-decoration: none;
-    color: var(--light);
+    color: var(--off-white);
     font-size: x-large;
     font-weight: bold;
-    border-top: 2px solid var(--light);
-    border-bottom: 2px solid var(--light);
+    border-top: 2px solid var(--off-white);
+    border-bottom: 2px solid var(--off-white);
 }
 .phone , .email , .git, .linkedin {
     display: flex;
@@ -144,19 +172,18 @@ section {
     align-content: center;
     margin: 50px 10px;
 }
-
 /* Contact Me Style End*/
 
 /* Footer Style Start */
 footer {
-    background: var(--pale-blue);
+    background: var(--dark-blue);
     width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: center;
 }
 footer h2 {
-    color: var(--light);
+    color: var(--off-white);
     font-size: 30px;
     margin: 0;
     text-align: center;
