@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: var(--light);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Color Scheme for the site */
+:root {
+    --pale-blue: #4bb3fd;
+    --light: #d6f9dd;
+    --dark-blue: #1d3461;
+    --green: #1a936f;
+    --blue-grey: #7389ae;
+}
+/* Header and Nav Style Start */
+header {
+    padding: 20px 35px;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--light);
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: var(--light);
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+}
+header nav ul a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+/* Header and Nav Style End */
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/placeholder.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Hero Style End */
+
+/* Footer Style Start */
+footer {
+    background: var(--pale-blue);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+}
+footer h2 {
+    color: var(--light);
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+/* Footer Style End */
+/* Add min-width Media Queris for 576, 769, 981 */
