@@ -53,5 +53,17 @@ header nav ul a {
     font-size: 20px;
 }
 /* Header and Nav Style End */
-
+footer {
+    background: var(--pale-blue);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+}
+footer h2 {
+    color: var(--light);
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
 /* Add min-width Media Queris for 576, 769, 981 */
