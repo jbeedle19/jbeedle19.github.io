@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: var(--light);
+    font-family: Helvetica, Arial, sans-serif:
+}
+/* Color Scheme for the site */
+:root {
+    --pale-blue: #4bb3fd;
+    --light: #d6f9dd;
+    --dark-blue: #1d3461;
+    --green: #1a936f;
+    --blue-grey: #7389ae;
+}
