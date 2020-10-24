@@ -10,7 +10,7 @@ body {
 /* Color Scheme for the site */
 :root {
     --pale-blue: #4bb3fd;
-    --light: #d6f9dd;
+    --light: white;
     --dark-blue: #1d3461;
     --green: #1a936f;
     --blue-grey: #7389ae;
@@ -63,6 +63,61 @@ header nav ul a {
     background-position: center;
 }
 /* Hero Style End */
+
+/* Shared Style Start */
+section {
+    padding: 30px 15px;
+}
+.section-title {
+    font-size: 48px;
+    color: var(--blue-grey);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 95%;
+}
+.primary-border {
+    /* REPLACE THIS BORDER COLOR??*/
+    border-color: var(--light)
+}
+.secondary-border {
+    /* REPLACE THIS BORDER COLOR??*/
+    border-color: var(--dark-blue);
+}
+.flex-row {
+    display: flex;
+}
+/* Shared Style End */
+
+/* About Me Style Start */
+.about-section {
+    background: var(--blue-grey);
+}
+.about-section h2 {
+    color: var(--light);
+}
+.headshot {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.headshot img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.about-text {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.about-text p {
+    text-align: center;
+}
+/* About Me Style End */
 
 /* Footer Style Start */
 footer {
