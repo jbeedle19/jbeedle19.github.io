@@ -56,7 +56,9 @@ header nav ul a {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("./placeholder.jpeg");
+    height: 225px;
+    width: 100%;
+    background-image: url("./images/placeholder.jpeg");
     background-size: cover;
     background-position: center;
 }
