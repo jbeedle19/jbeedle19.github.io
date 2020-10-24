@@ -116,8 +116,36 @@ section {
 }
 .about-text p {
     text-align: center;
+    font-size: 17px;
 }
 /* About Me Style End */
+
+/* Work Style Start */
+/* Work Style End */
+
+/* Contact Me Style Start */
+.contact-section {
+    background-color: var(--blue-grey);
+}
+.contact-section h2 {
+    color: var(--light);
+}
+.contact-section a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: x-large;
+    font-weight: bold;
+    border-top: 2px solid var(--light);
+    border-bottom: 2px solid var(--light);
+}
+.phone , .email , .git, .linkedin {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 10px;
+}
+
+/* Contact Me Style End*/
 
 /* Footer Style Start */
 footer {
