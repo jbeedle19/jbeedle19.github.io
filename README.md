@@ -11,7 +11,10 @@ A website that showcases Joshua Beedle's professional portfolio.
 placeholder url
 
 # Screenshots:
-![screenshot](placeholder)
+![screenshot](./assets/images/normal-desktop.png)
+![screenshot](./assets/images/small-desktop.png)
+![screenshot](./assets/images/tablet.png)
+![screenshot](./assets/images/mobile.png)
 
 ## Contribution
 Made with ❤️ by Joshua Beedle
