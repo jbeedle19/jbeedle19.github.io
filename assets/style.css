@@ -319,12 +319,57 @@ footer h2 {
     header h1 {
         width: auto;
     }
+    .section-title {
+        width: 75%;
+    }
     .about-me-info {
         display:flex;
         flex-flow: row;
     }
     .about-text p {
-        font-size: 15px;
+        font-size: 22px;
+    }
+    .work-grid-container {
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 20px;   
+    }
+    .work-grid-item.run-buddy {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 4;
+        background-image: url("./images/run-buddy.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .work-grid-item.taiwan {
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 2;
+        background-image: url("./images/taiwan.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+    .work-grid-item.tracing {
+        grid-column: 3 / span 1;
+        grid-row: 3 / span 2;
+        background-image: url("./images/pa-doh.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .work-grid-item.horiseon {
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 2;
+        background-image: url("./images/horiseon.jpg");
+        background-size: cover;
+        background-position: right;
+    }
+    .work-grid-item.cdc {
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 2;
+        background-image: url("./images/cdc-covid.jpg");
+        background-size: cover;
+        background-position: center;
     }
     .work-grid-item {
         opacity: 0.7;
