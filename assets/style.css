@@ -319,6 +319,13 @@ footer h2 {
     header h1 {
         width: auto;
     }
+    .about-me-info {
+        display:flex;
+        flex-flow: row;
+    }
+    .about-text p {
+        font-size: 15px;
+    }
     .work-grid-item {
         opacity: 0.7;
     }
