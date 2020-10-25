@@ -16,7 +16,6 @@ body {
 }
 /* Header and Nav Style Start */
 header {
-    padding-top: 10px;
     background-color: var(--dark-blue);
     display: flex;
     justify-content: center;
@@ -26,7 +25,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: var(--light-cyan);
-    margin: 0;
+    margin: 10px;
     width: 100%;
     text-align: center;
 }
@@ -310,6 +309,16 @@ footer h2 {
 
 /* Media Queries for screens over 981px (Large Desktops/Screens) */
 @media screen and (min-width: 981px) {
+    header {
+        justify-content: space-between;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+    }
+    header h1 {
+        width: auto;
+    }
     .work-grid-item {
         opacity: 0.7;
     }
