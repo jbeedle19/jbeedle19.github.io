@@ -16,7 +16,7 @@ body {
 }
 /* Header and Nav Style Start */
 header {
-    padding: 20px 35px;
+    padding-top: 10px;
     background-color: var(--dark-blue);
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ header nav ul {
     justify-content: center;
     align-items: center;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
 }
 header nav ul a {
@@ -145,10 +145,6 @@ section {
     display: flex;
     align-items: flex-end;
     text-decoration: none;
-    opacity: 0.7;
-}
-.work-grid-item:hover {
-    opacity: 1;
 }
 .work-grid-item div {
     padding: 10px;
@@ -236,4 +232,88 @@ footer h2 {
     text-align: center;
 }
 /* Footer Style End */
-/* Add min-width Media Queris for 576, 769, 981 */
+
+/* Media Queries for screens over 576px (Tablet Screens) */
+@media screen and (min-width: 576px) {
+    .section-title {
+        width: 80%;
+    }
+    .about-text p {
+        font-size: 20px;
+    }
+    .contact-info {
+        display: flex;
+        flex-flow: wrap;    
+    }
+    .phone , .email , .git, .linkedin {
+        width: 45%;
+    }
+}
+
+/* Media Queries for screens over 769px (Small Desktop Screens) */
+@media screen and (min-width: 769px) {
+    header h1 {
+        font-size: 45px;
+    }
+    header nav ul a {
+        font-size: 30px;
+    }
+    .headshot img {
+        height: 200px;
+        width: 200px;
+    }
+    .about-text p {
+        font-size: 25px;
+    }
+    .work-grid-item.run-buddy {
+        grid-column: 1 / span 4;
+        grid-row: 1 / span 3;
+        background-image: url("./images/run-buddy.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .work-grid-item.taiwan {
+        grid-column: 1 / span 2;
+        grid-row: 4 / span 3;
+        background-image: url("./images/taiwan.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+    .work-grid-item.tracing {
+        grid-column: 3 / span 2;
+        grid-row: 4 / span 3;
+        background-image: url("./images/pa-doh.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .work-grid-item.horiseon {
+        grid-column: 1 / span 2;
+        grid-row: 7 / span 3;
+        background-image: url("./images/horiseon.jpg");
+        background-size: cover;
+        background-position: right;
+    }
+    .work-grid-item.cdc {
+        grid-column: 3 / span 2;
+        grid-row: 7 / span 3;
+        background-image: url("./images/cdc-covid.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .contact-info {
+        justify-content: center;
+    }
+    .phone , .email , .git, .linkedin {
+        width: 30%;
+    }
+}
+
+/* Media Queries for screens over 981px (Large Desktops/Screens) */
+@media screen and (min-width: 981px) {
+    .work-grid-item {
+        opacity: 0.7;
+    }
+    .work-grid-item:hover {
+        opacity: 1;
+    }
+}
