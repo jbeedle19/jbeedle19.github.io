@@ -4,17 +4,15 @@
     box-sizing: border-box;
 }
 body {
-    color: var(--light);
+    color: var(--light-cyan);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Color Scheme for the site */
 :root {
-    --pale-blue: #4bb3fd;
-    --light: white;
-    --off-white: #d6f9dd;
     --dark-blue: #1d3461;
     --green: #1a936f;
     --blue-grey: #7389ae;
+    --light-cyan: #cffcff;
 }
 /* Header and Nav Style Start */
 header {
@@ -27,14 +25,14 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--light);
+    color: var(--light-cyan);
     margin: 0;
     width: 100%;
     text-align: center;
 }
 header a {
     text-decoration: none;
-    color: var(--off-white);
+    color: var(--light-cyan);
 }
 header nav {
     margin: 7px 0;
@@ -52,6 +50,11 @@ header nav ul a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 20px;
+}
+header nav ul a:hover {
+    background: var(--green);
+    color: var(--dark-blue);
+    border-radius: 15px;
 }
 /* Header and Nav Style End */
 
@@ -80,7 +83,7 @@ section {
 }
 .primary-border {
     /* REPLACE THIS BORDER COLOR??*/
-    border-color: var(--off-white)
+    border-color: var(--light-cyan)
 }
 .secondary-border {
     /* REPLACE THIS BORDER COLOR??*/
@@ -96,7 +99,7 @@ section {
     background: var(--blue-grey);
 }
 .about-section h2 {
-    color: var(--off-white);
+    color: var(--light-cyan);
 }
 .headshot {
     display: flex;
@@ -123,7 +126,7 @@ section {
 
 /* Work Style Start */
 .work-section {
-    background-color: #d6f9dd;
+    background-color: var(--light-cyan);
 }
 .work-grid-wrapper {
     display: flex;
@@ -135,38 +138,58 @@ section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    grid-gap: 20px;
-    
+    grid-gap: 20px;   
 }
 .work-grid-item {
-    border: 1px solid var(--blue-grey);
+    border: 3px solid var(--blue-grey);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    align-items: flex-end;
     text-decoration: none;
-    color: var(--blue-grey);
-    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.work-grid-item:hover {
+    opacity: 1;
+}
+.work-grid-item div {
+    padding: 10px;
+    background-color: var(--blue-grey);
+    color: var(--light-cyan);
+    width: 100%;
 }
 .work-grid-item.run-buddy {
     grid-column: 1 / span 4;
     grid-row: 1 / span 2;
+    background-image: url("./images/run-buddy.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .work-grid-item.taiwan {
     grid-column: 1 / span 2;
     grid-row: 3 / span 2;
+    background-image: url("./images/taiwan.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 .work-grid-item.tracing {
     grid-column: 3 / span 2;
     grid-row: 3 / span 2;
+    background-image: url("./images/pa-doh.png");
+    background-size: cover;
+    background-position: center;
 }
 .work-grid-item.horiseon {
     grid-column: 1 / span 2;
     grid-row: 5 / span 2;
+    background-image: url("./images/horiseon.jpg");
+    background-size: cover;
+    background-position: right;
 }
-.work-grid-item.placeholder {
+.work-grid-item.cdc {
     grid-column: 3 / span 2;
     grid-row: 5 / span 2;
+    background-image: url("./images/cdc-covid.jpg");
+    background-size: cover;
+    background-position: center;
 }
 /* Work Style End */
 
@@ -175,15 +198,20 @@ section {
     background-color: var(--blue-grey);
 }
 .contact-section h2 {
-    color: var(--off-white);
+    color: var(--light-cyan);
 }
 .contact-section a {
     text-decoration: none;
-    color: var(--off-white);
+    color: var(--light-cyan);
     font-size: x-large;
     font-weight: bold;
-    border-top: 2px solid var(--off-white);
-    border-bottom: 2px solid var(--off-white);
+    border-top: 2px solid var(--light-cyan);
+    border-bottom: 2px solid var(--light-cyan);
+}
+.contact-section a:hover {
+    background: var(--green);
+    color: var(--dark-blue);
+    border-color: var(--dark-blue);
 }
 .phone , .email , .git, .linkedin {
     display: flex;
@@ -202,7 +230,7 @@ footer {
     justify-content: center;
 }
 footer h2 {
-    color: var(--off-white);
+    color: var(--light-cyan);
     font-size: 30px;
     margin: 0;
     text-align: center;
