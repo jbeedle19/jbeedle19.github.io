@@ -8,7 +8,7 @@ A website that showcases Joshua Beedle's professional portfolio.
 * CSS
 
 # Website
-placeholder url
+https://jbeedle19.github.io/
 
 # Screenshots:
 ![screenshot](./assets/images/normal-desktop.png)
