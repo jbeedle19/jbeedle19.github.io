@@ -332,4 +332,8 @@ footer h2 {
     .work-grid-item:hover {
         opacity: 1;
     }
+    .phone , .email , .git, .linkedin {
+        width: auto;
+        margin: 30px;
+    }
 }
