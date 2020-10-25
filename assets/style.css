@@ -136,8 +136,7 @@ section {
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 20px;
-    color: var(--blue-grey);
-    font-size: 1.2rem;
+    
 }
 .work-grid-item {
     border: 1px solid var(--blue-grey);
@@ -145,6 +144,9 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
+    color: var(--blue-grey);
+    font-size: 1.2rem;
 }
 .work-grid-item.run-buddy {
     grid-column: 1 / span 4;
