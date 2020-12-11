@@ -177,10 +177,10 @@ section {
     background-size: cover;
     background-position: right;
 }
-.work-grid-item.cdc {
+.work-grid-item.password {
     grid-column: 3 / span 2;
     grid-row: 5 / span 2;
-    background-image: url("./images/cdc-covid.jpg");
+    background-image: url("./images/password-favicon.png");
     background-size: cover;
     background-position: center;
 }
@@ -290,10 +290,10 @@ footer h2 {
         background-size: cover;
         background-position: right;
     }
-    .work-grid-item.cdc {
+    .work-grid-item.password {
         grid-column: 3 / span 2;
         grid-row: 7 / span 3;
-        background-image: url("./images/cdc-covid.jpg");
+        background-image: url("./images/password-favicon.png");
         background-size: cover;
         background-position: center;
     }
@@ -362,10 +362,10 @@ footer h2 {
         background-size: cover;
         background-position: right;
     }
-    .work-grid-item.cdc {
+    .work-grid-item.password {
         grid-column: 2 / span 1;
         grid-row: 5 / span 2;
-        background-image: url("./images/cdc-covid.jpg");
+        background-image: url("./images/password-favicon.png");
         background-size: cover;
         background-position: center;
     }
