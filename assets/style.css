@@ -163,10 +163,10 @@ section {
     background-size: contain;
     background-position: top;
 }
-.work-grid-item.tracing {
+.work-grid-item.weather {
     grid-column: 3 / span 2;
     grid-row: 3 / span 2;
-    background-image: url("./images/pa-doh.png");
+    background-image: url("./images/weather-favicon.png");
     background-size: cover;
     background-position: center;
 }
@@ -276,10 +276,10 @@ footer h2 {
         background-size: cover;
         background-position: center;
     }
-    .work-grid-item.tracing {
+    .work-grid-item.weather {
         grid-column: 3 / span 2;
         grid-row: 4 / span 3;
-        background-image: url("./images/pa-doh.png");
+        background-image: url("./images/weather-favicon.png");
         background-size: cover;
         background-position: center;
     }
@@ -348,10 +348,10 @@ footer h2 {
         background-size: cover;
         background-position: top;
     }
-    .work-grid-item.tracing {
+    .work-grid-item.weather {
         grid-column: 3 / span 1;
         grid-row: 3 / span 2;
-        background-image: url("./images/pa-doh.png");
+        background-image: url("./images/weather-favicon.png");
         background-size: cover;
         background-position: center;
     }
