@@ -81,11 +81,9 @@ section {
     width: 95%;
 }
 .primary-border {
-    /* REPLACE THIS BORDER COLOR??*/
     border-color: var(--light-cyan)
 }
 .secondary-border {
-    /* REPLACE THIS BORDER COLOR??*/
     border-color: var(--dark-blue);
 }
 .flex-row {
@@ -151,19 +149,19 @@ section {
     color: var(--light-cyan);
     width: 100%;
 }
-.work-grid-item.run-buddy {
+.work-grid-item.movers {
     grid-column: 1 / span 4;
     grid-row: 1 / span 2;
-    background-image: url("./images/run-buddy.jpg");
+    background-image: url("./images/movers-not-shakers.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
-.work-grid-item.taiwan {
+.work-grid-item.quiz {
     grid-column: 1 / span 2;
     grid-row: 3 / span 2;
-    background-image: url("./images/taiwan.jpeg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("./images/quiz-favicon.png");
+    background-size: contain;
+    background-position: top;
 }
 .work-grid-item.tracing {
     grid-column: 3 / span 2;
@@ -264,17 +262,17 @@ footer h2 {
     .about-text p {
         font-size: 25px;
     }
-    .work-grid-item.run-buddy {
+    .work-grid-item.movers {
         grid-column: 1 / span 4;
         grid-row: 1 / span 3;
-        background-image: url("./images/run-buddy.jpg");
+        background-image: url("./images/movers-not-shakers.jpg");
         background-size: cover;
         background-position: center;
     }
-    .work-grid-item.taiwan {
+    .work-grid-item.quiz {
         grid-column: 1 / span 2;
         grid-row: 4 / span 3;
-        background-image: url("./images/taiwan.jpeg");
+        background-image: url("./images/quiz-favicon.png");
         background-size: cover;
         background-position: center;
     }
@@ -336,19 +334,19 @@ footer h2 {
         grid-auto-rows: minmax(100px, auto);
         grid-gap: 20px;   
     }
-    .work-grid-item.run-buddy {
+    .work-grid-item.movers {
         grid-column: 1 / span 2;
         grid-row: 1 / span 4;
-        background-image: url("./images/run-buddy.jpg");
-        background-size: cover;
-        background-position: center;
+        background-image: url("./images/movers-not-shakers.jpg");
+        background-size: contain;
+        background-position: top;
     }
-    .work-grid-item.taiwan {
+    .work-grid-item.quiz {
         grid-column: 3 / span 1;
         grid-row: 1 / span 2;
-        background-image: url("./images/taiwan.jpeg");
+        background-image: url("./images/quiz-favicon.png");
         background-size: cover;
-        background-position: center;
+        background-position: top;
     }
     .work-grid-item.tracing {
         grid-column: 3 / span 1;
