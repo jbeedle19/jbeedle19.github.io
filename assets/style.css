@@ -184,6 +184,13 @@ section {
     background-size: cover;
     background-position: center;
 }
+.link {
+    text-decoration: none;
+    color: var(--light-cyan);
+}
+.link:hover {
+    text-decoration: underline;
+}
 /* Work Style End */
 
 /* Contact Me Style Start */
