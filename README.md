@@ -10,7 +10,7 @@ A website that showcases Joshua Beedle's professional portfolio.
 # Website
 https://jbeedle19.github.io/
 
-# Screenshots:
+# Walkthrough
 ![Walkthrough](./assets/images/walkthrough.gif)
 
 ## Contribution
