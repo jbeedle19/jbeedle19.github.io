@@ -149,17 +149,17 @@ section {
     color: var(--light-cyan);
     width: 100%;
 }
-.work-grid-item.movers {
+.work-grid-item.fridge {
     grid-column: 1 / span 4;
     grid-row: 1 / span 2;
-    background-image: url("./images/movers-not-shakers.jpg");
+    background-image: url("./images/fridge.svg");
     background-size: cover;
     background-position: top;
 }
-.work-grid-item.quiz {
+.work-grid-item.movers {
     grid-column: 1 / span 2;
     grid-row: 3 / span 2;
-    background-image: url("./images/quiz-favicon.png");
+    background-image: url("./images/movers-not-shakers.jpg");
     background-size: contain;
     background-position: top;
 }
@@ -170,17 +170,17 @@ section {
     background-size: cover;
     background-position: center;
 }
-.work-grid-item.scheduler {
+.work-grid-item.blog {
     grid-column: 1 / span 2;
     grid-row: 5 / span 2;
-    background-image: url("./images/favicon.png");
+    background-image: url("./images/blog-favicon.png");
     background-size: cover;
     background-position: right;
 }
-.work-grid-item.password {
+.work-grid-item.quiz {
     grid-column: 3 / span 2;
     grid-row: 5 / span 2;
-    background-image: url("./images/password-favicon.png");
+    background-image: url("./images/quiz-favicon.png");
     background-size: cover;
     background-position: center;
 }
@@ -269,17 +269,17 @@ footer h2 {
     .about-text p {
         font-size: 25px;
     }
-    .work-grid-item.movers {
+    .work-grid-item.fridge {
         grid-column: 1 / span 4;
         grid-row: 1 / span 3;
-        background-image: url("./images/movers-not-shakers.jpg");
+        background-image: url("./images/fridge.svg");
         background-size: cover;
         background-position: center;
     }
-    .work-grid-item.quiz {
+    .work-grid-item.movers {
         grid-column: 1 / span 2;
         grid-row: 4 / span 3;
-        background-image: url("./images/quiz-favicon.png");
+        background-image: url("./images/movers-not-shakers.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -290,17 +290,17 @@ footer h2 {
         background-size: cover;
         background-position: center;
     }
-    .work-grid-item.scheduler {
+    .work-grid-item.blog {
         grid-column: 1 / span 2;
         grid-row: 7 / span 3;
-        background-image: url("./images/favicon.png");
+        background-image: url("./images/blog-favicon.png");
         background-size: cover;
-        background-position: right;
+        background-position: top;
     }
-    .work-grid-item.password {
+    .work-grid-item.quiz {
         grid-column: 3 / span 2;
         grid-row: 7 / span 3;
-        background-image: url("./images/password-favicon.png");
+        background-image: url("./images/quiz-favicon.png");
         background-size: cover;
         background-position: center;
     }
@@ -341,17 +341,17 @@ footer h2 {
         grid-auto-rows: minmax(100px, auto);
         grid-gap: 20px;   
     }
-    .work-grid-item.movers {
+    .work-grid-item.fridge {
         grid-column: 1 / span 2;
         grid-row: 1 / span 4;
-        background-image: url("./images/movers-not-shakers.jpg");
-        background-size: contain;
+        background-image: url("./images/fridge.svg");
+        background-size: cover;
         background-position: top;
     }
-    .work-grid-item.quiz {
+    .work-grid-item.movers {
         grid-column: 3 / span 1;
         grid-row: 1 / span 2;
-        background-image: url("./images/quiz-favicon.png");
+        background-image: url("./images/movers-not-shakers.jpg");
         background-size: cover;
         background-position: top;
     }
@@ -362,17 +362,17 @@ footer h2 {
         background-size: cover;
         background-position: center;
     }
-    .work-grid-item.scheduler {
+    .work-grid-item.blog {
         grid-column: 1 / span 1;
         grid-row: 5 / span 2;
-        background-image: url("./images/favicon.png");
+        background-image: url("./images/blog-favicon.png");
         background-size: cover;
         background-position: right;
     }
-    .work-grid-item.password {
+    .work-grid-item.quiz {
         grid-column: 2 / span 1;
         grid-row: 5 / span 2;
-        background-image: url("./images/password-favicon.png");
+        background-image: url("./images/quiz-favicon.png");
         background-size: cover;
         background-position: center;
     }
