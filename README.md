@@ -1,17 +1,10 @@
 # Joshua Beedle's Portfolio
-
 ## Purpose
 A website that showcases Joshua Beedle's professional portfolio.
-
 ## Built With
-* HTML
-* CSS
-
+* React
+* HTML, CSS, JavaScript
 # Website
-https://jbeedle19.github.io/
-
+https://jbeedle19.github.io/react-portfolio/
 # Walkthrough
-![Walkthrough](./assets/images/walkthrough.gif)
-
-## Contribution
-Made with ❤️ by Joshua Beedle
+![Walkthrough](./src/assets/images/walkthrough.gif)
