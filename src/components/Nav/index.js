@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Nav(props) {
-    const navSections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
+    const navSections = ['About Me', 'Portfolio', /* 'Contact', */ 'Resume'];
 
     return (
         <nav>

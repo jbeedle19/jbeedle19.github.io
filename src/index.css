@@ -106,11 +106,16 @@ section {
 .headshot img {
   height: 150px;
   width: 150px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
+}
+.about-me-info {
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .about-text {
   display: flex;
-  width: 100%;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -244,6 +249,7 @@ footer {
       display:flex;
       flex-flow: row;
   }
+
   .about-text p {
       font-size: 22px;
   }
@@ -252,5 +258,20 @@ footer {
   }
   .formMessage {
     width: 35%
+  }
+}
+
+/* Media Queries for screens over 1200px (Larger Desktops/Screens) */
+@media screen and (min-width: 1250px) {
+  .headshot img {
+    margin: 0 50px 10px 0;
+  }
+  .about-me-info {
+    display:flex;
+    flex-flow: row;
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
   }
 }

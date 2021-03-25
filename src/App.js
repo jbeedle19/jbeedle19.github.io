@@ -3,7 +3,8 @@ import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import ContactForm from './components/Contact';
+// Contact section removed, uncomment if you want to add it back in
+/* import ContactForm from './components/Contact'; */
 import Footer from './components/Footer';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   const renderSection = () => {
     switch (currentNavSection) {
       case 'Portfolio': return <Portfolio />;
-      case 'Contact': return <ContactForm />;
+      /* case 'Contact': return <ContactForm />; */
       case 'Resume': return <Resume />;
       default: return <About />;
     }
