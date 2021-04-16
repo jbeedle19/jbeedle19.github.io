@@ -7,10 +7,10 @@ import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
 
+import memeImage from '../../assets/images/meme-ories.png';
 import fridgeImage from '../../assets/images/fridge.svg';
 import moversImage from '../../assets/images/movers-not-shakers.jpg';
 import techImage from '../../assets/images/blog-favicon.png';
-import codeImage from '../../assets/images/quiz-favicon.png';
 import weatherImage from '../../assets/images/weather-favicon.png';
 
 function Project(props) {
@@ -86,6 +86,14 @@ function Project(props) {
             cols: 2,
         },
         {
+            img: memeImage,
+            title: 'Meme-Ories',
+            description: 'MERN stack / JWTs / Redux / GraphQL / React-Toastify',
+            gitLink: 'https://github.com/jbeedle19/game-project',
+            deployedLink: 'https://m3m3-ories.herokuapp.com/',
+            cols: 1,
+        },
+        {
             img: moversImage,
             title: 'Movers Not Shakers',
             description: 'jQuery / Bulma CSS / Google Maps API / OpenWeather API',
@@ -99,14 +107,6 @@ function Project(props) {
             description: 'Express / Sequelize / Handlebars.js',
             gitLink: 'https://github.com/jbeedle19/tech-blog',
             deployedLink: 'https://the-t3ch-blog.herokuapp.com/',
-            cols: 1,
-        },
-        {
-            img: codeImage,
-            title: 'Code Quiz',
-            description: 'HTML / CSS / JavaScript',
-            gitLink: 'https://github.com/jbeedle19/code-quiz',
-            deployedLink: 'https://jbeedle19.github.io/code-quiz/',
             cols: 1,
         },
         {
