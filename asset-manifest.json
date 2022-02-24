@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.253764cc.chunk.css",
-    "main.js": "/static/js/main.aef6bb02.chunk.js",
-    "main.js.map": "/static/js/main.aef6bb02.chunk.js.map",
+    "main.js": "/static/js/main.7dc549aa.chunk.js",
+    "main.js.map": "/static/js/main.7dc549aa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6ebcd59.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6ebcd59.js.map",
     "static/js/2.ab003879.chunk.js": "/static/js/2.ab003879.chunk.js",
@@ -12,17 +12,17 @@
     "index.html": "/index.html",
     "static/css/main.253764cc.chunk.css.map": "/static/css/main.253764cc.chunk.css.map",
     "static/js/2.ab003879.chunk.js.LICENSE.txt": "/static/js/2.ab003879.chunk.js.LICENSE.txt",
-    "static/media/JoshuaBeedleResume.98663902.pdf": "/static/media/JoshuaBeedleResume.98663902.pdf",
+    "static/media/JoshuaBeedleResume.4a53b296.pdf": "/static/media/JoshuaBeedleResume.4a53b296.pdf",
+    "static/media/NowStreaming.2643477f.png": "/static/media/NowStreaming.2643477f.png",
     "static/media/fridge.0a541275.svg": "/static/media/fridge.0a541275.svg",
     "static/media/headshot.25de78e3.jpg": "/static/media/headshot.25de78e3.jpg",
     "static/media/meme-ories.682dbfab.png": "/static/media/meme-ories.682dbfab.png",
-    "static/media/movers-not-shakers.e2fa624c.jpg": "/static/media/movers-not-shakers.e2fa624c.jpg",
     "static/media/weather-favicon.5bce3243.png": "/static/media/weather-favicon.5bce3243.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b6ebcd59.js",
     "static/js/2.ab003879.chunk.js",
     "static/css/main.253764cc.chunk.css",
-    "static/js/main.aef6bb02.chunk.js"
+    "static/js/main.7dc549aa.chunk.js"
   ]
 }
