@@ -9,7 +9,7 @@ import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
 
 import memeImage from '../../assets/images/meme-ories.png';
 import fridgeImage from '../../assets/images/fridge.svg';
-import moversImage from '../../assets/images/movers-not-shakers.jpg';
+import nowStreamingImage from '../../assets/images/NowStreaming.png';
 import techImage from '../../assets/images/blog-favicon.png';
 import weatherImage from '../../assets/images/weather-favicon.png';
 
@@ -94,11 +94,11 @@ function Project(props) {
             cols: 1,
         },
         {
-            img: moversImage,
-            title: 'Movers Not Shakers',
-            description: 'jQuery / Bulma CSS / Google Maps API / OpenWeather API',
-            gitLink: 'https://github.com/jbeedle19/movers-not-shakers',
-            deployedLink: 'https://jbeedle19.github.io/movers-not-shakers/',
+            img: nowStreamingImage,
+            title: 'NowStreaming',
+            description: 'Python / Flask / Jinja / Sqlite3',
+            gitLink: 'https://github.com/jbeedle19/cs50_final_project',
+            deployedLink: 'https://jb-nowstreaming.herokuapp.com/',
             cols: 1,
         },
         {
