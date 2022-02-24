@@ -4,8 +4,8 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import DescriptionIcon from '@material-ui/icons/Description';
 
 function Resume() {
-    const frontEndProficiencies = ["HTML", "CSS", "JavaScript", "jQuery", "React", "Bootstrap, Tailwind, Material-UI", "Responsive Design"];
-    const backEndProficiencies = ["APIs", "Node", "Express", "MySQL & Sequelize", "MongoDB & Mongoose", "REST", "GraphQL"];
+    const frontEndProficiencies = ["HTML", "CSS", "JavaScript", "jQuery", "Jinja", "React", "Angular", "Bootstrap, Tailwind, Material-UI", "Responsive Design"];
+    const backEndProficiencies = ["Java", "Spring", "Python", "Flask", "C", "APIs", "Node", "Express", "MySQL & Sequelize", "MongoDB & Mongoose", "REST", "GraphQL"];
 
     return (
         <section className='contact-section'>
