@@ -15,10 +15,10 @@ function About() {
                 </div>
                 <div className='about-text'>
                     <p>
-                        Full-stack web developer with a background in teaching and customer service 
-                        looking to create unique user experiences on the web. Earned a certificate in 
-                        full-stack web development from the University of Pennsylvania, with skills 
-                        in HTML, CSS, JavaScript, MERN stack, MySql, and responsive web design. 
+                        Full-stack web developer with a background in teaching and customer service looking to
+                        create unique user experiences on the web. Earned a certificate in full-stack web development 
+                        from the University of Pennsylvania, with a focus on MERN stack. Additional skills in Git, Java, 
+                        Spring, Angular, Python, Flask, Django and C. 
                         <br />
                         <br />
                         Quick learner that is calm under pressure and has excellent time management 
